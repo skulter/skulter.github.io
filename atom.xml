@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>개발노리터</title>
+  
+  <subtitle>신상 개발자의 개발 놀이터</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://skulter.github.io/"/>
+  <updated>2020-01-16T15:28:32.809Z</updated>
+  <id>https://skulter.github.io/</id>
+  
+  <author>
+    <name>JinHo Kim</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Devlog</title>
+    <link href="https://skulter.github.io/2020/01/17/FirstDevlog/"/>
+    <id>https://skulter.github.io/2020/01/17/FirstDevlog/</id>
+    <published>2020-01-16T15:27:43.000Z</published>
+    <updated>2020-01-16T15:28:32.809Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
