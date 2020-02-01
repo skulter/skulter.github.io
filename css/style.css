@@ -201,7 +201,7 @@ img.thumbnail {
   margin-bottom: 0.5rem !important;
 }
 .article .content {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 .article .content blockquote.pullquote {
   float: right;
@@ -372,7 +372,7 @@ img.thumbnail {
 .content h4,
 .content h5,
 .content h6 {
-  font-weight: 600;
+  font-weight: 200;
 }
 .content h1 {
   font-size: 1.75em;

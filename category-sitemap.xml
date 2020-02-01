@@ -8,14 +8,21 @@
     </url>
 
     <url>
-        <loc>https://skulter.github.io/categories/DEVELOPER/ETC/</loc>
-        <lastmod>2020-01-20T13:01:03.555Z</lastmod>
+        <loc>https://skulter.github.io/categories/DEVELOPER/WEB/</loc>
+        <lastmod>2020-02-01T05:52:52.859Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://skulter.github.io/categories/DEVELOPER/</loc>
+        <lastmod>2020-02-01T05:52:52.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://skulter.github.io/categories/DEVELOPER/ETC/</loc>
         <lastmod>2020-01-20T13:01:03.555Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

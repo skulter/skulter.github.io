@@ -3,6 +3,34 @@
 
 
     <url>
+        <loc>https://skulter.github.io/tags/Response/</loc>
+        <lastmod>2020-02-01T05:52:52.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://skulter.github.io/tags/Request/</loc>
+        <lastmod>2020-02-01T05:52:52.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://skulter.github.io/tags/HTTP/</loc>
+        <lastmod>2020-02-01T05:52:52.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://skulter.github.io/tags/WEB/</loc>
+        <lastmod>2020-02-01T05:52:52.859Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://skulter.github.io/tags/HEXO/</loc>
         <lastmod>2020-01-20T13:01:03.555Z</lastmod>
         <changefreq>weekly</changefreq>

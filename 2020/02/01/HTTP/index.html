@@ -12,23 +12,25 @@
 <!-- google Adsense-->
 <script data-ad-client="ca-pub-8523491629251939" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
-<link rel="canonical" href="https://skulter.github.io/2020/01/17/firstdevlog/">
-<title>첫 개발 블로그를 시작하며.. - 개발노리터</title>
+<link rel="canonical" href="https://skulter.github.io/2020/02/01/http/">
+<title>HTTP 통신이란? - 개발노리터</title>
 
 
-    <meta name="description" content="시도하지 않으면 아무것도 할수없다.(지그지글러)  패기넘치게 블로그를 만든지는 일주일이 넘었지만 아직까지 제대로 된 글이없는 이유는 어떤글을 쓸 것인지 정하지 못하였기 떄문이다. 어떻게 카테고리를 정리하고 어떤 개발 블로그를 만들지, 주제는 어떠한것을 다룰지에 대한 생각이 많았고 블로그를 하며 다짐하게 되었던것은 다음과 같다.  글을 작성해야 한다는 압박">
+    <meta name="description" content="HTTP란? HTTP 통신 Request Response  이번에는 웹의 기초인 HTTP에 대해서 알아보고자 한다. 나는 학원에서 IOT와 BigData를 배우면서 웹에 대한 기초를 배우지 않았으며 웹 개발자로 취업을 할 때 가장 걸림돌이 되었던것이 웹에 대한 기초였다. 혹 이전의 나와 비슷한 상황에 마주치는분들에게 도움이 되었으면 좋겠다. HTTP는 Hy">
 <meta property="og:type" content="article">
-<meta property="og:title" content="첫 개발 블로그를 시작하며..">
-<meta property="og:url" content="https://skulter.github.io/2020/01/17/FirstDevlog/index.html">
+<meta property="og:title" content="HTTP 통신이란?">
+<meta property="og:url" content="https://skulter.github.io/2020/02/01/HTTP/index.html">
 <meta property="og:site_name" content="개발노리터">
-<meta property="og:description" content="시도하지 않으면 아무것도 할수없다.(지그지글러)  패기넘치게 블로그를 만든지는 일주일이 넘었지만 아직까지 제대로 된 글이없는 이유는 어떤글을 쓸 것인지 정하지 못하였기 떄문이다. 어떻게 카테고리를 정리하고 어떤 개발 블로그를 만들지, 주제는 어떠한것을 다룰지에 대한 생각이 많았고 블로그를 하며 다짐하게 되었던것은 다음과 같다.  글을 작성해야 한다는 압박">
+<meta property="og:description" content="HTTP란? HTTP 통신 Request Response  이번에는 웹의 기초인 HTTP에 대해서 알아보고자 한다. 나는 학원에서 IOT와 BigData를 배우면서 웹에 대한 기초를 배우지 않았으며 웹 개발자로 취업을 할 때 가장 걸림돌이 되었던것이 웹에 대한 기초였다. 혹 이전의 나와 비슷한 상황에 마주치는분들에게 도움이 되었으면 좋겠다. HTTP는 Hy">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:image" content="https://skulter.github.io/images/og_image.png">
-<meta property="article:published_time" content="2020-01-16T15:27:43.000Z">
-<meta property="article:modified_time" content="2020-01-19T11:29:59.533Z">
+<meta property="article:published_time" content="2020-02-01T05:36:06.000Z">
+<meta property="article:modified_time" content="2020-02-01T05:52:52.859Z">
 <meta property="article:author" content="JinHo Kim">
-<meta property="article:tag" content="일상">
-<meta property="article:tag" content="블로그">
+<meta property="article:tag" content="WEB">
+<meta property="article:tag" content="HTTP">
+<meta property="article:tag" content="Request">
+<meta property="article:tag" content="Response">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://skulter.github.io/images/og_image.png">
 
@@ -99,7 +101,7 @@
         <div class="navbar-brand is-flex-center">
             <a class="navbar-item navbar-logo" href="/">
             
-                <img src="/images/logo.svg" alt="첫 개발 블로그를 시작하며.." height="28">
+                <img src="/images/logo.svg" alt="HTTP 통신이란?" height="28">
             
             </a>
         </div>
@@ -150,17 +152,17 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2020-01-16T15:27:43.000Z">2020-01-17</time>
+                <time class="level-item has-text-grey" datetime="2020-02-01T05:36:06.000Z">2020-02-01</time>
                 
                 <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/ESSAY/">ESSAY</a>
+                <a class="has-link-grey -link" href="/categories/DEVELOPER/">DEVELOPER</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/DEVELOPER/WEB/">WEB</a>
                 </div>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    2분 읽기 (대략 344 단어)
+                    8분 읽기 (대략 1134 단어)
                 </span>
                 
                 
@@ -169,21 +171,86 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                첫 개발 블로그를 시작하며..
+                HTTP 통신이란?
             
         </h1>
         <div class="content">
-            <blockquote>
-<p>시도하지 않으면 아무것도 할수없다.<br><em>(지그지글러)</em></p>
+            <h1 id="HTTP란"><a href="#HTTP란" class="headerlink" title="HTTP란?"></a>HTTP란?</h1><ul>
+<li><a href="#HTTP-통신?">HTTP 통신</a></li>
+<li><a href="#Request-(요청)">Request</a></li>
+<li><a href="#Response-(응답)">Response</a></li>
+</ul>
+<p>이번에는 웹의 기초인 HTTP에 대해서 알아보고자 한다. 나는 학원에서 IOT와 BigData를 배우면서 웹에 대한 기초를 배우지 않았으며 웹 개발자로 취업을 할 때 가장 걸림돌이 되었던것이 웹에 대한 기초였다. 혹 이전의 나와 비슷한 상황에 마주치는분들에게 도움이 되었으면 좋겠다.</p>
+<p>HTTP는 <code>Hyper Text Transfer Protocol</code> 의 약자로 직역을 하면 하이퍼 텍스트 전송 프로토콜이다. HTTP는 웹 서버와 클라이언트 간의 통신을 하기 위한 통신 규약이다. 주로 80포트를 사용하며 초기 0.9버전부터 최근 3버전이 등장하였다.</p>
+<h1 id="HTTP-통신"><a href="#HTTP-통신" class="headerlink" title="HTTP 통신"></a>HTTP 통신</h1><p>HTTP 통신은 Request(요청)과 Response(응답)으로 이루어져 있으며 기본적으로 요청과 응답을 한번 하면 통신은 끊긴다.</p>
+<h2 id="Request-요청"><a href="#Request-요청" class="headerlink" title="Request (요청)"></a>Request (요청)</h2><h3 id="Requset-Header"><a href="#Requset-Header" class="headerlink" title="Requset Header"></a>Requset Header</h3><p>크롬 -&gt; 개발자도구 -&gt; 네트워크 탭에서 확인이 가능하다.</p>
+<p><img src="/images/Post/Http/ex_request.jpg" alt="requsetHeader" title="requset Header(해당 이미지는 예를 들기위한 이미지입니다.)"></p>
+<!-- ![이미지 대체 텍스트](../images/about/about_profile.jpg "김진호 -->
+<p>클라이언트에서 웹 서버에 요청한 정보가 담겨있다.<br>중요한 정보만 설명하자면</p>
+<ul>
+<li><strong>Host</strong> : 요청하려는 서버 호스트의 이름과 포트번호</li>
+<li><strong>User_Agent</strong> : 접속한 기기에 대한 정보가 담겨있다. 해당 데이터로 웹환경인지 모바일 환경인지 구분이 가능하다. </li>
+<li><strong>Method</strong> : 요청 메서드 종류가 표시된다.</li>
+<li><strong>Accept</strong> : 클라이언트가 처리 가능한 타입 종류를 나열한다.</li>
+<li><strong>Accept-charset</strong> : 클라이언트가 지원 가능한 문자열 인코딩 방식</li>
+<li><strong>Accept-language</strong> : 클라이언트가 지원 가능한 언어를 나열한다.</li>
+<li><strong>Referer</strong> : 직전에 머물렀던 링크 주소</li>
+<li><strong>Cookie</strong> : 쿠키 값 (key-value)<blockquote>
+<p>글 작성 기준날짜로 앞으로는 크롬에서 User_Agent 보안상의 이유로 천천히 철폐할 계획이라고한다. <a href="http://www.zdnet.co.kr/view/?no=20200115102836" title="링크 설명" rel="external nofollow noopener noreferrer" target="_blank">뉴스 보기</a></p>
 </blockquote>
-<p>패기넘치게 블로그를 만든지는 일주일이 넘었지만 아직까지 제대로 된 글이<br>없는 이유는 어떤글을 쓸 것인지 정하지 못하였기 떄문이다.</p>
-<p>어떻게 카테고리를 정리하고 어떤 개발 블로그를 만들지, 주제는 어떠한것을 다룰지에 대한 생각이 많았고 블로그를 하며 다짐하게 되었던것은 다음과 같다.</p>
-<ol>
-<li><strong>글을 작성해야 한다는 압박으로 스트레스를 받는순간 블로그를 삭제 할 것</strong></li>
-<li><strong>글을 작성하는것은 여가시간을 활용 할 것</strong></li>
-</ol>
-<p>블로그를 개설하게 된 이유는 개발자로써 내가 어떠한 주제에 관심이있고 내가 어려워하던 부분들을 다른 블로그에서 배움으로써 나와 같은 개발자분들에게 미약하게나마 도움이 됬으면 좋겟다는 바람으로 개설하게 되었다. 적어도 내가 배우고 좋아하는 것에 대한 기록이 있었으면 하는 마음도 있지만..</p>
-<p>언젠가 제 블로그를 찾아주시는 개발자분들에게 미리 감사의 말씀을 올립니다.<br><strong>감사합니다.</strong></p>
+</li>
+</ul>
+<h3 id="Request-Method"><a href="#Request-Method" class="headerlink" title="Request Method"></a>Request Method</h3><table>
+<thead>
+<tr>
+<th align="center">Method</th>
+<th align="center">전송형태</th>
+<th align="center">설명</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">GET</td>
+<td align="center">GET [<code>request-uri</code>]?query_string HTTP/1.1  Host:[<code>Hostname</code>] 혹은 [<code>IP</code>]</td>
+<td align="center">URL(URI) 형식으로 정보를 검색하기위해 서버에 요청한다.</td>
+</tr>
+<tr>
+<td align="center">POST</td>
+<td align="center">POST [<code>request-uri</code>] HTTP/1.1 Host:[<code>Hostname</code>] 혹은 [<code>IP</code>] Content-Lenght:[Length in Bytes] Content-Type:[Content Type] [<code>데이터</code>]</td>
+<td align="center">FORM 입력을 처리하기 위해 서버에 데이터를 전송하며 파일도 전송이 가능하다. 데이터를 요청 메세지의 body 담아 전송한다.</td>
+</tr>
+<tr>
+<td align="center">PUT</td>
+<td align="center">PUT [<code>request-uri</code>] HTTP/1.1 Host:[<code>Hostname</code>] 혹은 [<code>IP</code>] Content-Lenght:[Length in Bytes]  Content-Type:[Content Type] [<code>데이터</code>]</td>
+<td align="center">POST와 같이 서버에 전송하는 형식은 동일하다. 하지만 자료 수정(UPDATE)를 요청한다.</td>
+</tr>
+<tr>
+<td align="center">DELETE</td>
+<td align="center">DELETE [<code>request-uri</code>] HTTP/1.1 Host:[<code>Hostname</code>] 혹은 [<code>IP</code>]</td>
+<td align="center">자료를 삭제를 요청한다.</td>
+</tr>
+</tbody></table>
+<p>가장 많이 사용되는 메서드는 <code>GET</code> 과 <code>POST</code>이며 쉽게 생각해서 게시판에 글의 정보를 가져올떄는 <code>GET</code> 글을 작성할떄는 <code>POST</code>메서드가 사용된다.</p>
+<hr>
+<h2 id="Response-응답"><a href="#Response-응답" class="headerlink" title="Response (응답)"></a>Response (응답)</h2><h3 id="Response-Header"><a href="#Response-Header" class="headerlink" title="Response Header"></a>Response Header</h3><p> <a href="#Requset-header">Request Header (요청)</a>와 마찬가지로 크롬 -&gt; 개발자도구 -&gt; 네트워크 탭에서 확인이 가능하다.</p>
+<p> <img src="/images/Post/Http/ex_response.jpg" alt="responseHeader" title="response Header(해당 이미지는 예를 들기위한 이미지입니다.)"></p>
+<p>클라이언트에서 웹 서버에 요청한것에 대한 웹서버의 응답정보가 담겨있다.</p>
+<ul>
+<li><strong>Server</strong> : 웹 서버 소프트웨어의 종류와 정보</li>
+<li><strong>Cache-Control</strong> : 브라우저가 캐시를 처리할때 사용되는 정보, no-cache로 지정할 경우 캐시 저장을 하지 않는다.</li>
+<li><strong>Content-Type</strong> : 서버가 클라이이언트에 정보를 전달하는 형식표시와 인코딩형식을 담고있다.</li>
+<li><strong>Content-Length</strong> : 전송되는 데이터의 크기를 바이트단위로 표시</li>
+<li><strong>status</strong> : 상태코드 <del><a href="#상태코드-정리">상태코드</a></del></li>
+<li><strong>expire</strong> : 응답된 정보의 만료시간을 나타낸다. Cache-Control에 max-age가 있는 경우 무시된다.</li>
+<li><strong>Location</strong> : 300번대 응답이나 Created 응답이 왔을 때 이동할 페이지를 알려주는 헤더</li>
+<li><strong>HTTP</strong> : 메시지가 만들어 진 시간</li>
+<li><strong>Connection</strong> : HTTP 1.1 버전에만 존재, 기본적으로 keep-alive, 특별한 의미가 없다.</li>
+</ul>
+<h4 id="Refernces"><a href="#Refernces" class="headerlink" title="#Refernces"></a>#Refernces</h4><ul>
+<li><a href="https://javaplant.tistory.com/18" rel="external nofollow noopener noreferrer" target="_blank">https://javaplant.tistory.com/18</a> </li>
+<li><a href="https://gyrfalcon.tistory.com/" rel="external nofollow noopener noreferrer" target="_blank">https://gyrfalcon.tistory.com/</a></li>
+<li><a href="https://jeong-pro.tistory.com/181" rel="external nofollow noopener noreferrer" target="_blank">https://jeong-pro.tistory.com/181</a></li>
+<li><a href="https://www.zerocho.com/category/HTTP/post/5b4c4e3efc5052001b4f519b" rel="external nofollow noopener noreferrer" target="_blank">https://www.zerocho.com/category/HTTP/post/5b4c4e3efc5052001b4f519b</a></li>
+</ul>
 
         </div>
         
@@ -191,7 +258,7 @@
             <div class="level-start">
                 <div class="level-item">
                     <span class="is-size-6 has-text-grey has-mr-7">#</span>
-                    <a class="has-link-grey -link" href="/tags/%EB%B8%94%EB%A1%9C%EA%B7%B8/" rel="tag">블로그</a>, <a class="has-link-grey -link" href="/tags/%EC%9D%BC%EC%83%81/" rel="tag">일상</a>
+                    <a class="has-link-grey -link" href="/tags/HTTP/" rel="tag">HTTP</a>, <a class="has-link-grey -link" href="/tags/Request/" rel="tag">Request</a>, <a class="has-link-grey -link" href="/tags/Response/" rel="tag">Response</a>, <a class="has-link-grey -link" href="/tags/WEB/" rel="tag">WEB</a>
                 </div>
             </div>
         </div>
@@ -242,13 +309,13 @@
 <div class="card card-transparent">
     <div class="level post-navigation is-flex-wrap is-mobile">
         
-        <div class="level-start">
-            <a class="level level-item has-link-grey  article-nav-prev" href="/2020/01/17/MarkDown/">
-                <i class="level-item fas fa-chevron-left"></i>
+        
+        <div class="level-end">
+            <a class="level level-item has-link-grey  article-nav-next" href="/2020/01/17/MarkDown/">
                 <span class="level-item">마크다운(MarkDown) 문법 알아보기</span>
+                <i class="level-item fas fa-chevron-right"></i>
             </a>
         </div>
-        
         
     </div>
 </div>
@@ -633,7 +700,7 @@
             <div class="level-start has-text-centered-mobile">
                 <a class="footer-logo is-block has-mb-6" href="/">
                 
-                    <img src="/images/logo.svg" alt="첫 개발 블로그를 시작하며.." height="28">
+                    <img src="/images/logo.svg" alt="HTTP 통신이란?" height="28">
                 
                 </a>
                 <p class="is-size-7">
